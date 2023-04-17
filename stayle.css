@@ -19,19 +19,19 @@ body{
    flex-direction: column;
     }
   
-    .slider .slides .item{
+    .slider .slider__slides .item{
     display: none;
     }
-    .slider .slides .item img{
+    .slider .slider__slides .item img{
     width: 100%;
     }
     
-    .slider .slides .active{
+    .slider .slider__slides .active{
     display: block;
     
     }
     
-    .slider .boutons{
+    .slider .buttons{
         position: absolute;
         bottom: 20px;
         left: 50%;
